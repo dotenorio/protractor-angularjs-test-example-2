@@ -1,0 +1,14 @@
+{
+  "name": "protractortest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "cls & http-server -p 8888 -c-1",
+    "update-webdriver": "webdriver-manager update",
+    "test": "protractor protractor.conf.js"
+  },
+  "dependencies": {
+    "protractor": "^1.6.1",
+    "http-server": "^0.8.0"
+  }
+}
